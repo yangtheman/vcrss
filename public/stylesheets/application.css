@@ -12,9 +12,13 @@ body {
   line-height: 18px;
 }
 
+h1 {
+  font-size: 2.0em;
+}
+
 #body_content, #side_body_content {
   float: left;
-  width: 45%;
+  width: 800px;
   background: white;
   color: #333;
   padding: 20px;
@@ -38,4 +42,12 @@ body {
 
 #menu ul li.selected a, #menu ul li a:hover {
   background: #CCC;
+}
+
+#body_content_right {
+  width: 300px;
+}
+
+#body_content_left {
+  width: 450px;
 }
